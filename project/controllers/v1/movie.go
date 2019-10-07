@@ -1,7 +1,7 @@
 package v1
 
 import (
-	"github.com/go-ginger/sample-ginger-sql/project/models"
+	"github.com/go-ginger/sample-ginger-mongo/project/models"
 )
 
 type MoviesController struct {

@@ -2,8 +2,8 @@ package controllers
 
 import (
 	g "github.com/go-ginger/ginger"
-	v1 "github.com/go-ginger/sample-ginger-sql/project/controllers/v1"
-	"github.com/go-ginger/sample-ginger-sql/project/global"
+	v1 "github.com/go-ginger/sample-ginger-mongo/project/controllers/v1"
+	"github.com/go-ginger/sample-ginger-mongo/project/global"
 )
 
 func RegisterRoutes() *g.Router {

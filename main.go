@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/go-ginger/sample-ginger-sql/project/controllers"
-	"github.com/go-ginger/sample-ginger-sql/project/db"
-	"github.com/go-ginger/sample-ginger-sql/project/global"
+	"github.com/go-ginger/sample-ginger-mongo/project/controllers"
+	"github.com/go-ginger/sample-ginger-mongo/project/db"
+	"github.com/go-ginger/sample-ginger-mongo/project/global"
 	"log"
 )
 

@@ -1,9 +1,9 @@
 package db
 
 import (
-	"github.com/go-ginger/sql"
+	"github.com/go-ginger/mongo"
 )
 
-type movieSqlHandler struct {
-	sql.DbHandler
+type movieMongoHandler struct {
+	mongo.DbHandler
 }

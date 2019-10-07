@@ -3,7 +3,7 @@ package logics
 import (
 	gl "github.com/go-ginger/logic"
 	gm "github.com/go-ginger/models"
-	"github.com/go-ginger/sample-ginger-sql/project/models"
+	"github.com/go-ginger/sample-ginger-mongo/project/models"
 )
 
 type movieLogic struct {

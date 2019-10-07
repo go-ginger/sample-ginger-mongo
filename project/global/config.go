@@ -3,7 +3,7 @@ package global
 import (
 	gh "github.com/go-ginger/helpers"
 	gm "github.com/go-ginger/models"
-	"github.com/go-ginger/sql"
+	"github.com/go-ginger/mongo"
 )
 
 type config struct {
@@ -11,9 +11,9 @@ type config struct {
 
 	Port string
 
-	// sql config
-	SqlDialect          string
-	SqlConnectionString string
+	// mongo config
+	MongoConnectionString string
+	MongoDatabaseName     string
 	//
 }
 
@@ -21,10 +21,9 @@ var Config *config
 
 func initializeConfig() {
 	Config = &config{
-		Port:       gh.GetEnv("Port", "8080"),
-		SqlDialect: gh.GetEnv("SqlDialect", "mysql"),
-		SqlConnectionString: gh.GetEnv("SqlConnectionString",
-			"root:123@/test?charset=utf8&parseTime=True&loc=UTC"),
+		Port:                  gh.GetEnv("Port", "8080"),
+		MongoConnectionString: gh.GetEnv("MongoConnectionString", "mongodb://localhost:27017"),
+		MongoDatabaseName:     gh.GetEnv("MongoDatabaseName", "test"),
 	}
-	sql.InitializeConfig(Config)
+	mongo.InitializeConfig(Config)
 }

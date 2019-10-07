@@ -1,15 +1,15 @@
 package models
 
 import (
-	"github.com/go-ginger/sql"
+	"github.com/go-ginger/mongo"
 	"time"
 )
 
 type Movie struct {
-	sql.BaseModel
+	mongo.BaseModel
 
-	Title       string    `json:"title,omitempty"`
-	ReleaseDate time.Time `json:"release_date,omitempty"`
-	Genres      []Genre   `json:"genres,omitempty" gorm:"many2many:movie_genres;"`
-	Synopsis    string    `json:"synopsis,omitempty" gorm:"type:TEXT"`
+	Title       string    `bson:"title" json:"title,omitempty"`
+	Rate        float32   `bson:"rate" json:"rate,omitempty"`
+	ReleaseDate time.Time `bson:"release_date" json:"release_date,omitempty"`
+	Synopsis    string    `bson:"synopsis" json:"synopsis,omitempty"`
 }
