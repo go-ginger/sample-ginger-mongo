@@ -31,8 +31,8 @@ github.com/go-ginger/logic v1.0.2 h1:jQSa7Ji7emf5MC1sa+BcaJ6X2cQmEv9AUNmfA2xyXBA
 github.com/go-ginger/logic v1.0.2/go.mod h1:36fTEycHVrtBmNe5YUcf5o/fzN4LPvAAEjRs3EvoozI=
 github.com/go-ginger/models v1.0.1 h1:R/fng5eh2sBQ92XM/d9ZimMVrw+V4uMVvV+vFNT3kA0=
 github.com/go-ginger/models v1.0.1/go.mod h1:I1EqNLmqnooeA0m76xGWAYRaYZze3LaI/u92/sigb4g=
-github.com/go-ginger/mongo v1.0.1 h1:nDs6uVp6zog+Yy4ZTG3RF6r5zASKLxjmgAqBLwBN6WA=
-github.com/go-ginger/mongo v1.0.1/go.mod h1:biHZBirDnq+fubiGfAP6xximGQaliECjY/F4KjkdKSg=
+github.com/go-ginger/mongo v1.0.2 h1:BMN1z7V3MDkwCNi1JZFTd1iL8ucOborMOVxdZQ3VZNE=
+github.com/go-ginger/mongo v1.0.2/go.mod h1:biHZBirDnq+fubiGfAP6xximGQaliECjY/F4KjkdKSg=
 github.com/go-kit/kit v0.8.0/go.mod h1:xBxKIO96dXMWWy0MnWVtmwkA9/13aqxPnvrjFYMA2as=
 github.com/go-logfmt/logfmt v0.3.0/go.mod h1:Qt1PoO58o5twSAckw1HlFXLmHsOX5/0LbT9GBnD5lWE=
 github.com/go-sql-driver/mysql v1.4.1/go.mod h1:zAC/RDZ24gD3HViQzih4MyKcchzm+sOG5ZlKdlhCg5w=
